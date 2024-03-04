@@ -1,7 +1,8 @@
 #include <iostream>
 #include <string>
 #include <map>
-
+#include <curl/curl.h>
+#include <jsoncpp/json/json.h>
 
 class BinanceAPI {
 public:
